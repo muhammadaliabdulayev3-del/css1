@@ -396,6 +396,158 @@ margin-top: 84.42px;
 
 
 
+
+.section7{
+width: 100%;
+background-color: #F0F0F0;
+padding: 80px;
+}
+
+
+
+.div{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 113px;
+}
+
+.have{
+color: #00000099;
+width: 248px;
+height: 66px;
+margin-top: 25px;
+}
+
+.hr2{
+width: 1400px;
+height: 0px;
+color: #0000001A;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.badge{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 430px;
+margin-top: 30px;
+}
+
+.link{
+color: black;
+}
+
+.company{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+}
+
+.about{
+font-size: 14px;
+color: #00000099;
+margin-top: 20px;
+}
+
+.link-flex{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 35px;
+}
+
+
+
+@media (max-width: 768px) {
+
+.section7{
+padding: 50px 20px;
+}
+
+.div{
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+text-align: center;
+}
+
+.have{
+width: 100%;
+height: auto;
+}
+
+
+
+.badge{
+flex-direction: column;
+gap: 20px;
+text-align: center;
+}
+
+.link-flex{
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.company{
+font-size: 15px;
+}
+
+.about{
+font-size: 14px;
+}
+}
+
+
+@media (max-width: 480px) {
+
+.section7{
+padding: 30px 15px;
+}
+
+.div{
+flex-direction: column;
+gap: 30px;
+text-align: center;
+}
+
+.have{
+width: 100%;
+margin-top: 15px;
+font-size: 14px;
+}
+
+.hr2{
+width: 100%;
+margin-top: 30px;
+}
+
+.badge{
+flex-direction: column;
+gap: 15px;
+}
+
+.company{
+font-size: 14px;
+}
+
+.about{
+font-size: 13px;
+margin-top: 10px;
+}
+
+.link-flex{
+justify-content: center;
+gap: 8px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+}
+
+
+
 @media (max-width: 992px) {
 
 .section6{
